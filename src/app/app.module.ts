@@ -14,13 +14,11 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import {MatCardModule} from '@angular/material/card';
 import {MatPaginatorModule} from '@angular/material/paginator';
-import { ProductoComponent } from './components/producto/producto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListaProductosComponent,
-    ProductoComponent
+    ListaProductosComponent
   ],
   imports: [
     BrowserModule,
