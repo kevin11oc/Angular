@@ -1,0 +1,37 @@
+<div class="header">
+    <a href="/listaProductos">
+        <img src="../../../assets/img/NexsysLogo-_3_.png" />
+    </a>
+    <hr />
+</div>
+
+<div class="card mb-3" style="margin: 60px">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="{{
+          producto && producto.images.length > 0 ? producto.images[0] : ''
+        }}" class="img-fluid rounded-start" />
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h2 class="card-title">{{ producto?.title }}</h2>
+                <h2 class="card-text">${{ producto?.price }}</h2>
+                <p class="card-text">
+                    <small class="text-muted">{{ producto?.description }}</small>
+                </p>
+                <button type="button" class="btn btn-primary">
+          Agregar al carrito
+        </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <img src="../../../assets/img/NexsysLogo-_3_.png" style="width: 300px !important" />
+    <a href="https://m.facebook.com/121776587854507/"><img src="../../../assets/img/facebook-social-logo.png" style="width: 40px !important" /></a>
+    <a href="https://twitter.com/nexsysla"><img src="../../../assets/img/twitter (1).png" style="width: 40px !important" /></a>
+    <a href="https://www.instagram.com/nexsyscolombia/?igshid=OGRjNzg3M2Y%3D"><img src="../../../assets/img/instagram.png" style="width: 40px !important" /></a>
+    <a href="https://co.linkedin.com/company/nexsys"><img src="../../../assets/img/linkedin.png" style="width: 40px !important" /></a>
+    <a href="https://youtube.com/@NexsysLatinoamerica"><img src="../../../assets/img/youtube (1).png" style="width: 40px !important" /></a>
+</footer>

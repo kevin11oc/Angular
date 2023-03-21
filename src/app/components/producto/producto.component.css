@@ -1,0 +1,21 @@
+.header img {
+    width: 200px;
+}
+
+hr {
+    box-shadow: 2px 2px 5px #999;
+}
+
+.der {
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.izq {
+    margin-left: 800px;
+    vertical-align: top;
+    display: inline-block;
+}

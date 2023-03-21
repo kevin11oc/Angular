@@ -1,0 +1,31 @@
+.header img {
+    width: 200px;
+}
+
+hr {
+    box-shadow: 2px 2px 5px #999;
+}
+
+.productos h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: blueviolet !important;
+}
+
+.card {
+    width: 250px;
+    height: 200px !important;
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.mat-card-content img {
+    margin: 20px 20px 20px 10px !important;
+    align-items: center !important;
+    width: 200px !important;
+}
+
+.mat-card-content h3 {
+    color: blue;
+}
